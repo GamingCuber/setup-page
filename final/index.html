@@ -9,13 +9,13 @@
 
 <body>
     <h1>
-        Here's a basic quiz to determine your Chinese Zodiac
+        Here's a basic quiz to determine your Chinese Zodiac 🧧
     </h1>
-    <form method="post">
+    <form method="get">
         <h2>Basic Info:</h2>
         <label for="name">First/Last Name: </label>
         <input type="text" name="name">
-        <p></p>
+        <p></p> <!-- Using empty paragraph tags -->
         <label for="birth-date">Birth date: </label>
         <input type="date" name="birth-date">
         <h2>Personal Values:</h2>
@@ -33,8 +33,25 @@
         <input type="password" name="greatest-regret">
         <p></p>
         <h2>Relationships:</h2>
-        <input type="radio" name="so-value" id="">
+        <input type="radio" name="so-value" id="honesty">
+        <label for="honesty">Honesty</label>
+        <br>
+        <input type="radio" name="so-value" id="integrity">
+        <label for="integrity">Integrity</label>
+        <br>
+        <input type="radio" name="so-value" id="caring">
+        <label for="caring">Caring</label>
+        <br>
+        <input type="radio" name="so-value" id="politics">
+        <label for="politics">Same Political Views</label>
+        <br>
+        <input type="radio" name="so-value" id="communication">
+        <label for="communication">Communication</label>
+        <br>
         <h2>Miscellaneous:</h2>
+        <textarea placeholder="Type a short personal statement here" name="essay" rows="5" cols="35">
+        </textarea>
+        <p></p>
         <input type="submit" name="submit" value="Submit your answers here!">
 
     </form>
