@@ -11,7 +11,11 @@
     <h1>
         Here's a basic quiz to determine your Chinese Zodiac 🧧
     </h1>
-    <form method="get">
+    <a href="https://www.lakesidearts.org.uk/news/chinese-zodiac-stories/">
+        <img style="float:right; margin-right:400px" src="images/zodiac.png" width="25%" height="25%">
+    </a>
+    <div style="width:50%"">
+        <form method=" get" action="results.html">
         <h2>Basic Info:</h2>
         <label for="name">First/Last Name: </label>
         <input type="text" name="name">
@@ -33,6 +37,7 @@
         <input type="password" name="greatest-regret">
         <p></p>
         <h2>Relationships:</h2>
+        <label for="so-value">What value is most important in a relationship for you?</label> <br>
         <input type="radio" name="so-value" id="honesty">
         <label for="honesty">Honesty</label>
         <br>
@@ -49,12 +54,25 @@
         <label for="communication">Communication</label>
         <br>
         <h2>Miscellaneous:</h2>
-        <textarea placeholder="Type a short personal statement here" name="essay" rows="5" cols="35">
-        </textarea>
+        <textarea placeholder="Type a short personal statement here" name="essay" rows="5" cols="35"></textarea>
         <p></p>
         <input type="submit" name="submit" value="Submit your answers here!">
-
-    </form>
+        </form>
+    </div>
 </body>
+<style>
+    * {
+        background-color: darkred;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    h1 {
+        color: darkorange;
+    }
+
+    h2 {
+        color: gold;
+    }
+</style>
 
 </html>
