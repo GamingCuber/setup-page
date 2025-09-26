@@ -16,12 +16,14 @@
     </a>
     <div style="width:50%"">
         <form method=" get" action="results.html">
+        <!-- Mainly just contains basic info through date and text fields-->
         <h2>Basic Info:</h2>
         <label for="name">First/Last Name: </label>
         <input type="text" name="name">
         <p></p> <!-- Using empty paragraph tags -->
         <label for="birth-date">Birth date: </label>
         <input type="date" name="birth-date">
+        <!-- Uses dropdown to choose your greatest value -->
         <h2>Personal Values:</h2>
         <label for="values">Greatest Value: </label>
         <select name="values">
@@ -33,10 +35,13 @@
             <option value="intelligent">Intelligent</option>
         </select>
         <p></p>
+        <!-- Uses password to hide the person's regret as they type -->
         <label for="greatest-regret">If you chose "Regret", what is your greatest regret?</label>
         <input type="password" name="greatest-regret">
         <p></p>
+
         <h2>Relationships:</h2>
+        <!-- Just a really long thing of radio buttons to choose best value in a relationship -->
         <label for="so-value">What value is most important in a relationship for you?</label> <br>
         <input type="radio" name="so-value" id="honesty">
         <label for="honesty">Honesty</label>
@@ -53,6 +58,7 @@
         <input type="radio" name="so-value" id="communication">
         <label for="communication">Communication</label>
         <br>
+        <!-- Just has text area for putting text in -->
         <h2>Miscellaneous:</h2>
         <textarea placeholder="Type a short personal statement here" name="essay" rows="5" cols="35"></textarea>
         <p></p>
