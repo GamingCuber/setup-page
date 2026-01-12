@@ -1,0 +1,36 @@
+ * {
+     background-color: cornsilk;
+ }
+
+ .list {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: large;
+     color: blue;
+ }
+
+ .form {
+     color: red;
+ }
+
+ .long-term-goals {
+     color: blueviolet;
+ }
+
+ #completion-status-yes {
+     color: darkgreen
+ }
+
+ #completion-status-no {
+     color: dodgerblue
+ }
+
+ #funny-quote {
+     font-size: 10px;
+     color: bisque;
+     font-family: 'Times New Roman', Times, serif
+ }
+
+ h2 {
+     font-size: large;
+     color: chocolate;
+ }

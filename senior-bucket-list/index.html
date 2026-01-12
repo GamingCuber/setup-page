@@ -5,34 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senior Year Bucket List</title>
+    <link rel="stylesheet" href="/setup-page/senior-bucket-list/styles.css">
 </head>
 
 <body>
     <h1>Senior Year Bucket List</h1>
-    <ul
-        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:large;">
+    <p> don't succumb to <span id="funny-quote"> senioritis :) </span></p>
+    <ul class="list">
         <li> <strong>Finish our Capstone</strong> <em> by May </em></li>
         <ol>
-            <li> Finish Research Paper </li>
-            <li> Choose type of project you want to make</li>
-            <li> Make and finish project either solo or with a team</li>
-            <li> Present project to a CS Academy class </li>
+            <div class="short-term-goals">
+                <h2> Short Term Goals: </h2>
+                <li> Finish Research Paper </li>
+                <li> Choose type of project you want to make</li>
+            </div>
+            <div class="long-term-goals">
+                <h2> Long Term Goals: </h2>
+                <li> Make and finish project either solo or with a team</li>
+                <li> Present project to a CS Academy class </li>
+            </div>
         </ol>
-        <li> <strong> Take AP Tests </strong> <a href="https://www.zeffy.com/en-US/ticketing/25-26-ap-exam-shop">(Make
+        <li> <strong> Take AP Tests </strong> <a href=" https://www.zeffy.com/en-US/ticketing/25-26-ap-exam-shop">(Make
                 sure to pay)</a></li>
+        <img src="https://img.apstudy.net/ap/physics-c/br20/Page_051_Image_0008.jpg" width="100px">
         <li> Choose a college to go to </li>
-        <img src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.11pK-3KfPwz4OsLeBbbfXAHaHa%3Fpid%3DApi&sp=1767812294T39e6fb4219e1be8054723dc47dab64a49cff74b5532714a2c7384e28eefe9547"
-            width="100" style="border-radius:50%;">
+        <img src="https://www.sipa.columbia.edu/sites/default/files/styles/3_1_2400x800/public/2022-10/columbia-campus-from-nwcb-eileen-barroso.jpg?h=b53fc5ad&itok=-NQiUcez"
+            width="200px">
         <li> Graduate in May! </li>
         <!-- completed bucketlist -->
     </ul>
-    <form method="get"
-        style="color:palevioletred;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <form method="get" class="form">
         <p>Have you completed everything?</p>
-        <input type="radio" id="completion-status-yes" name="completion-status" value="completion-status">
-        <label for="completion-status-yes">Yes</label>
+        <img src="https://openclipart.org/image/2400px/svg_to_png/19803/andrea-S-checkmark-on-circle-1.png"
+            width="100px"> <br>
+        <input type="radio" id=font-family: 'Trebuchet MS' , 'Lucida Sans Unicode' , 'Lucida Grande' , 'Lucida Sans' ,
+            Arial, sans-serif; font-size:large;""completion-status-yes" name="completion-status"
+            value="completion-status">
+        <label for="completion-status-yes" id="completion-status-yes">Yes</label>
         <input type="radio" id="completion-status-no" name="completion-status" value="completion=status">
-        <label for="completion-status-no">No</label>
+        <label for="completion-status-no" id="completion-status-no">No</label>
         <br>
         <label for="textbox">Your Full Signature Here: </label> <br>
         <input type="text" id="textbox" name="signature"
